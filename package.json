@@ -1,0 +1,13 @@
+{
+  "name": "testes-e2e",
+  "version": "1.0.0",
+  "description": "Criando testes e2e em Web APIs com Jest e Node js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
