@@ -20,6 +20,7 @@ async function handler(request, response) {
     return respondJSON({ ok: 1 }, response)
   }
   if (method === 'DELETE') {
+    Database.clear()
     return respondJSON({ ok: 'DELETE' }, response)
   }
 }
